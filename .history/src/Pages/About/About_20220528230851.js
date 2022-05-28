@@ -15,7 +15,7 @@ const About = () => {
               Full Stack Web developer
             </h3>
             <p className="py-2">
-              Hello! I'm Sajid Hasan a passionate software engineer. I develop
+              Hello! I'm Sohag Hasan a passionate software engineer. I develop
               web applications, mobile applications, and desktop applications.
               My core skill is based on JavaScript and I love to do most of the
               things using JavaScript. I love to make the web more open to the

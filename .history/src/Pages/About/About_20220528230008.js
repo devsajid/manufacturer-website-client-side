@@ -10,12 +10,12 @@ const About = () => {
           <img src={img} class="max-w-sm rounded-lg" />
           <div class="intro text-left">
             <h3 className="text-2xl font-bold text-primary">Hi, I'm</h3>
-            <h1 className="text-6xl font-bold py-2">Sajid Hasan</h1>
+            <h1 className="text-6xl font-bold py-2">S Hasan</h1>
             <h3 className="text-2xl font-bold text-primary ">
               Full Stack Web developer
             </h3>
             <p className="py-2">
-              Hello! I'm Sajid Hasan a passionate software engineer. I develop
+              Hello! I'm Sohag Hasan a passionate software engineer. I develop
               web applications, mobile applications, and desktop applications.
               My core skill is based on JavaScript and I love to do most of the
               things using JavaScript. I love to make the web more open to the
@@ -37,7 +37,7 @@ const About = () => {
             Skills
           </h2>
 
-          <div class="bg-primary py-3 px-1 m-2">
+          <div class="bg-info py-3 px-1 m-2">
             <p class="text-left ml-1 py-1">JAVASCRIPT</p>
             <progress
               class="progress progress-primary w-100 h-5"
@@ -46,7 +46,7 @@ const About = () => {
             ></progress>
           </div>
 
-          <div class="bg-primary py-3 px-1 m-2">
+          <div class="bg-info py-3 px-1 m-2">
             <p class="text-left ml-1 py-1">REACT</p>
             <progress
               class="progress progress-primary w-100 h-5"
@@ -55,7 +55,7 @@ const About = () => {
             ></progress>
           </div>
 
-          <div class="bg-primary py-3 px-1 m-2">
+          <div class="bg-info py-3 px-1 m-2">
             <p class="text-left ml-1 py-1">EXPRESS JS</p>
             <progress
               class="progress progress-primary w-100 h-5"
@@ -65,12 +65,11 @@ const About = () => {
           </div>
         </div>
         <div class="col">
-          <div class="contact-box bg-primary text-white w-75 p-5 m-5">
+          <div class="contact-box bg-info w-75 p-5 m-5">
             <h3>Email</h3>
-            <h5>mailsajidhasan@gmail.com</h5>
+            <h5>mailsohaghasan@gmail.com</h5>
             <address>Address</address>
-            <p>Kamrangir char,Dhaka1211</p>
-            <p>01878922322</p>
+            <p>Mohammadpur,Dhaka</p>
           </div>
         </div>
       </div>

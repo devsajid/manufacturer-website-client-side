@@ -75,8 +75,8 @@ const Navbar = () => {
           Car-Manufacturer-APP
         </Link>
       </div>
-      <div className="navbar-center bg-primary hidden lg:flex">
-        <ul className="menu menu-horizontal p-0 text-white">{menuItems}</ul>
+      <div className="navbar-center hidden lg:flex">
+        <ul className="menu menu-horizontal p-0">{menuItems}</ul>
       </div>
       <div
         className="dropdown dropdown-end navbar-end
@@ -91,7 +91,7 @@ const Navbar = () => {
             </label>
             <ul
               tabindex="0"
-              class="menu menu-compact dropdown-content mt-3 p-2 shadow bg-primary rounded-box w-52"
+              class="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52"
             >
               <li className="text-white">
                 <Link to="dashboard/myAccount" class="justify-between">

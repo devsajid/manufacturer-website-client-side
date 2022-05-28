@@ -14,16 +14,16 @@ const Navbar = () => {
 
   const menuItems = (
     <>
-      <li className="text-white">
+      <li class>
         <Link to="/">Home</Link>
       </li>
-      <li className="text-white">
+      <li>
         <Link to="/review">Review</Link>
       </li>
-      <li className="text-white">
+      <li>
         <Link to="/about">About</Link>
       </li>
-      <li className="text-white">
+      <li>
         <Link to="/blog">Blog</Link>
       </li>
 
@@ -31,10 +31,10 @@ const Navbar = () => {
         <li class="nav-link">{user?.displayName}</li>
       ) : (
         <>
-          <li className="text-white">
+          <li>
             <Link to="/signIn">SignIn</Link>
           </li>
-          <li className="text-white">
+          <li>
             <Link to="/signUp">SignUp</Link>
           </li>
         </>
@@ -68,15 +68,12 @@ const Navbar = () => {
             {menuItems}
           </ul>
         </div>
-        <Link
-          to="/"
-          className="normal-case text-white text-2xl font-bold ml-10"
-        >
-          Car-Manufacturer-APP
+        <Link to="/" className="normal-case text-4xl font-bold ml-10">
+          Phone +Plus
         </Link>
       </div>
-      <div className="navbar-center bg-primary hidden lg:flex">
-        <ul className="menu menu-horizontal p-0 text-white">{menuItems}</ul>
+      <div className="navbar-center hidden lg:flex">
+        <ul className="menu menu-horizontal p-0">{menuItems}</ul>
       </div>
       <div
         className="dropdown dropdown-end navbar-end
@@ -91,9 +88,9 @@ const Navbar = () => {
             </label>
             <ul
               tabindex="0"
-              class="menu menu-compact dropdown-content mt-3 p-2 shadow bg-primary rounded-box w-52"
+              class="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52"
             >
-              <li className="text-white">
+              <li>
                 <Link to="dashboard/myAccount" class="justify-between">
                   {" "}
                   MyAccount{" "}
@@ -101,11 +98,11 @@ const Navbar = () => {
               </li>
 
               {user && (
-                <li className="text-white">
+                <li>
                   <Link to="/dashboard">Dashboard</Link>
                 </li>
               )}
-              <li className="text-white">
+              <li>
                 {user ? (
                   <button
                     className="btn btn-primary text-white"
